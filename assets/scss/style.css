@@ -1189,66 +1189,6 @@ p {
 }
 
 /*===========================
-        07.TEAM css 
-===========================*/
-.single_team {
-  position: relative;
-}
-.single_team img {
-  width: 100%;
-}
-.single_team .team_content {
-  position: absolute;
-  background-color: #fff;
-  left: 0;
-  bottom: 0;
-  width: 85%;
-  padding: 25px;
-  padding-right: 60px;
-}
-.single_team .team_content .team_name a {
-  font-size: 20px;
-  font-weight: 500;
-  color: #2B2A3D;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-.single_team .team_content .team_name a:hover {
-  color: #E84E4E;
-}
-.single_team .team_content p {
-  margin-top: 5px;
-}
-.single_team .team_content .social {
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-.single_team .team_content .social li {
-  margin: 3px 0;
-}
-.single_team .team_content .social li a {
-  color: #5A5872;
-  font-size: 16px;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-.single_team .team_content .social li a:hover {
-  color: #E84E4E;
-}
-
-/*===========================
      08.TESTIMONIAL css 
 ===========================*/
 .testimonial_area {
