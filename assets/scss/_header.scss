@@ -2,7 +2,7 @@
 
 
 /*===========================
-     02.HEADER css 
+     02.HEADER css
 ===========================*/
 
 
@@ -37,15 +37,15 @@
     border-radius: 5px;
     position: relative;
     @include transition(0.3s);
-    
+
 }
 
 .navbar-brand {
     padding: 0;
-    
+
     & img{
         width: 150px;
-        
+
         @media #{$xs}{
             width: 130px;
         }
@@ -119,7 +119,7 @@
     & .nav-item {
         position: relative;
         margin-left: 40px;
-        
+
         @media #{$lg}{
             margin-left: 30px;
         }
@@ -137,7 +137,7 @@
             @include transition(0.3s);
             padding: 10px 0;
             position: relative;
-            
+
             &::before{
                 position: absolute;
                 content: '';
@@ -147,7 +147,7 @@
                 height: 3px;
                 background-color: $white;
                 @include transition(0.3s);
-                
+
                 @media #{$md}{
                     display: none;
                 }
@@ -184,7 +184,7 @@
             }
         }
 
-        
+
 
         &:hover {
             & .sub-menu {
@@ -297,13 +297,13 @@
             background-color: $black;
         }
     }
-    
-        
+
+
     & .navbar-nav {
         & .nav-item {
             & a {
                 color: $black;
-                
+
                 &::before{
                     background-color: $theme-color;
                 }
@@ -312,8 +312,8 @@
                     color: $theme-color;
                 }
             }
-            
-            
+
+
         }
     }
 }
@@ -324,9 +324,10 @@
 .single_hero{
     height: 750px;
     position: relative;
-    overflow: hidden;   
+    overflow: hidden;
     z-index: 1;
-    
+    background-image: url("../images/home-wallpaper.jpg");
+
     @media #{$desktop}{
         height: 950px;
     }
@@ -353,13 +354,13 @@
 
 .hero_content{
     padding-top: 50px;
-    
+
     & .hero_title{
         font-size: 60px;
         line-height: 85px;
         color: $white;
         margin-top: 15px;
-        
+
         @media #{$lg}{
             font-size: 44px;
             line-height: 65px;
@@ -376,7 +377,7 @@
             font-size: 40px;
             line-height: 60px;
         }
-        
+
         & span{
             display: contents;
             color: $theme-color;
@@ -386,12 +387,12 @@
         font-size: 16px;
         color: $white;
         margin-top: 30px;
-        
+
         @media #{$xs}{
             font-size: 16px;
         }
     }
-    
+
     & .main-btn{
         margin-top: 45px;
     }

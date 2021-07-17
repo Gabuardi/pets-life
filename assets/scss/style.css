@@ -505,7 +505,7 @@ p {
   }
 }
 /*===========================
-     02.HEADER css 
+     02.HEADER css
 ===========================*/
 /*===== NAVBAR =====*/
 .header_navbar {
@@ -841,6 +841,7 @@ p {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  background-image: url("../images/home-wallpaper.jpg");
 }
 @media only screen and (min-width: 1400px) {
   .single_hero {
