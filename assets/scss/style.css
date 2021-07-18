@@ -921,7 +921,7 @@ p {
 }
 
 /*===========================
-      03.FEATURES css 
+      03.FEATURES css
 ===========================*/
 .single_features i {
   font-size: 60px;
@@ -957,6 +957,17 @@ p {
 }
 .single_features p {
   margin-top: 15px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.single_features.link:hover .features_title {
+  transform: scale(1.1) translateY(-2px);
+}
+.single_features.link:hover p {
+  color: #E84E4E;
 }
 .single_features:hover i {
   color: #E84E4E;

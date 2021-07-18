@@ -2,7 +2,7 @@
 
 
 /*===========================
-      03.FEATURES css 
+      03.FEATURES css
 ===========================*/
 
 .single_features{
@@ -11,7 +11,7 @@
         line-height: 60px;
         color: $theme-color;
         @include transition(0.3s);
-        
+
         @media #{$xs}{
             font-size: 40px;
             line-height: 45px;
@@ -23,7 +23,7 @@
             font-size: 24px;
             font-weight: 600;
             @include transition(0.3s);
-            
+
             @media #{$xs}{
                 font-size: 24px;
             }
@@ -31,8 +31,18 @@
     }
     & p{
         margin-top: 15px;
+        @include transition(0.3s);
     }
-    
+
+    &.link:hover{
+      .features_title{
+        transform: scale(1.1) translateY(-2px);
+      }
+      p{
+        color: $theme-color;
+      }
+    }
+
     &:hover{
         & i{
             color: $theme-color;
