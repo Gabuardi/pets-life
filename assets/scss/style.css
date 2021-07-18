@@ -553,7 +553,7 @@ p {
   padding: 0;
 }
 .navbar-brand img {
-  width: 150px;
+  width: 250px;
 }
 @media (max-width: 767px) {
   .navbar-brand img {
