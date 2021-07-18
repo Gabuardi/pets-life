@@ -1,7 +1,7 @@
 (function() {
-    
+
     "use strict";
-    
+
     //===== Prealoder
 
     window.onload = function() {
@@ -13,7 +13,7 @@
         document.querySelector('.preloader').style.display = 'none';
     }
 
-    
+
     /*=====================================
     Sticky
     ======================================= */
@@ -44,9 +44,9 @@
     // Get the navbar
 
 
-    // for menu scroll 
+    // for menu scroll
     var pageLink = document.querySelectorAll('.page-scroll');
-    
+
     pageLink.forEach(elem => {
         elem.addEventListener('click', e => {
             e.preventDefault();
@@ -80,7 +80,7 @@
 
 
     //===== close navbar-collapse when a  clicked
-    let navbarToggler = document.querySelector(".navbar-toggler");    
+    let navbarToggler = document.querySelector(".navbar-toggler");
     var navbarCollapse = document.querySelector(".navbar-collapse");
 
     navbarToggler.addEventListener('click', () => {
@@ -93,20 +93,6 @@
             navbarCollapse.classList.remove('show')
         })
     );
-
-
-    //===== glide tiny for testimonial
-    
-    tns({
-        container: '.testimonial_active',
-        items: 1,
-        slideBy: 'page',
-        autoplay: false,
-        mouseDrag: true,
-        gutter: 0,
-        nav: true,
-        controls: false,
-    });
 
     //WOW Scroll Spy
     var wow = new WOW({
@@ -149,8 +135,8 @@
     };
 
     document.querySelector('.back-to-top').onclick = function () {
-        scrollTo(document.documentElement); 
+        scrollTo(document.documentElement);
     }
 
-    
+
 })();
